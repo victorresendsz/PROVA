@@ -1,0 +1,30 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
+  Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Lê um número inteiro da entrada
+        int N = int.Parse(Console.ReadLine());
+
+        // Verifica se está no intervalo permitido
+        if (N > 0 && N < 1000000)
+        {
+            // Imprime o número
+            Console.WriteLine(N);
+        }
+        else
+        {
+            // Mensagem de erro para valores fora do intervalo
+            Console.WriteLine("O número deve estar entre 1 e 999999.");
+        }
+    }
+}

@@ -1,0 +1,35 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
+  Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        try
+        {
+            primeira data
+            Console.WriteLine(01-01-2024);
+            DateTime data1 = DateTime.Parse(Console.ReadLine());
+
+            segunda data
+            Console.WriteLine(31-12-2024);
+            DateTime data2 = DateTime.Parse(Console.ReadLine());
+
+            diferença em dias
+            TimeSpan diferenca = data2 - data1;
+            int dias = Math.Abs(diferenca.Days); negativos
+
+         
+            Console.WriteLine($"A diferença entre as datas é de {dias} dia(s).");
+        }
+        catch (FormatException)
+        {
+            
+}
